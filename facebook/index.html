@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                
+                <a class="logo-text" href="index.html">facebook</a>
+
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Phone</label></td>
+                            <td><label class="login-label">Password</label></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="button" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label class="forget">Forgetten account?</label> </td>
+
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="left-body">
+            <p class="left-content">Facebook helps you connect and share with the <br>people in your life</p>
+            <img class="image" src="fb.png">
+        </div>
+
+        <div class="right-body">
+            <div class="first-line"><h1>Create an account</h1></div>
+            <div class="second-line"><p>It's quick and easy</p></div>
+
+            
+            <form id="signup-form">
+            <input name="fname" class="firstname" type="text" placeholder="First name">
+            <input name="sname" class="firstname" type="text" placeholder="Surname"><br>
+            <input class="email" type="email" placeholder="Email Address" name="email"><br>
+            <input class="password" type="password" placeholder="New password" name="password">
+            
+            <div><p class="birthday">Birthday</p></div><br>
+            <input class="ddmmyy" name="dob" type="date" id="birthday"><br>
+
+            <p class="gender">Gender</p>
+            <div class="gend">
+            <label>Male</label>
+            <input name="gender" type="radio">
+    
+            <label>Female</label>
+            <input name="gender" type="radio">
+
+            <label>Custom</label>
+            <input name="gender" type="radio"><br>
+
+            <input class="signup" type="submit">
+        
+             </div>
+            </form>
+
+        </div>
+        
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="scrip.js"></script>
+</body>
+</html>
